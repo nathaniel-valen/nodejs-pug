@@ -22,15 +22,10 @@ block content
                                     th ID
                                     th Name
                                 tbody
-                                    // each famCard in famCards
+                                     each familyCards in famCards
                                     tr
-                                        //td #{famCard.id}
-                                        //td #{famCard.name}
-                                        td 1
-                                        td Nathaniel
-                                    tr
-                                        td 2
-                                        td Jonny
+                                        td #{famCard.id}
+                                        td #{famCard.name}
 
 block add-js
     script(src="/plugins/datatables/jquery.dataTables.min.js")
